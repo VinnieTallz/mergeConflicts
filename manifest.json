@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Sticky Fingz Audio Recorder",
+    "version": "1.0",
+    "description": "Record audio from your browser.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "tabs",
+      "storage",
+      "audioCapture"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup/popup.html"
+
+    }
+
+  }
